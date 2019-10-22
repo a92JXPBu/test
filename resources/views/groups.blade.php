@@ -8,7 +8,7 @@
         @endif
     @endif
         <td align="center">
-            <a href="/groups/{{$group->id}}">
+            <a href="/items/{{$group->id}}">
                 <div><img src="{{$group->image}}" width="64" height="64"></img></div>
                 <span style="text-align: center">{{$group->name}}</span>
             </a>

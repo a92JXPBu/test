@@ -21,7 +21,7 @@
                                 </tr>
                                 <tr>
                                     <td height="10%" style="background-color: #413d29; border-radius: 15px 50px; padding: 10px 0; text-align: center;">
-                                        <a href="/cart/add/{{$item->group}}:{{$item->id}}" style="color:white; font-size: small; text-decoration: none;font-family: 'Comic Sans MS' ">В КОРЗИНУ</a>
+                                        <a href="/cart/add/{{$item->group_id}}:{{$item->id}}" style="color:white; font-size: small; text-decoration: none;font-family: 'Comic Sans MS' ">В КОРЗИНУ</a>
                                     </td>
                                 </tr>
                             </table>
