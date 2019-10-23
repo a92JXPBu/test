@@ -1,20 +1,16 @@
-<table width="50%" align="center" border="1">
-    @foreach($groups as $i=>$group)
-    @if (($i % 4) == 0)
-        @if ($i == 0)
-            <tr>
-        @else
-            </tr><tr>
-        @endif
-    @endif
-        <td align="center">
-            <a href="/items/{{$group->id}}">
-                <div><img src="{{$group->image}}" width="64" height="64"></img></div>
-                <span style="text-align: center">{{$group->name}}</span>
-            </a>
-        </td>
-        @if ($i + 1 == count($groups))
-    </tr>
-    @endif
+<div class="groupsContainer">
+    @foreach($groups as $group)
+        <a href="/items/{{$group->id}}">
+            <table class="groupBox">
+                <tr>
+                    <td class="groupBoxImageContainer">
+                        <img class="groupBoxImage" src="{{$group->image}}"></img>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="groupBoxName">{{$group->name}}</td>
+                </tr>
+            </table>
+        </a>
     @endforeach
-</table>
+</div>

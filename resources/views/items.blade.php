@@ -6,6 +6,13 @@
     <title>Пиксель</title>
     <!-- Styles -->
     <style>
+        .itemsContainer
+        {
+            width:50%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
     </style>
 </head>
 <body>

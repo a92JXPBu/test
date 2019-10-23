@@ -1,10 +1,3 @@
-<?php
-/*
-echo $cart;
-echo "<br>";
-echo $items;
-*/
-?>
 <table width="50%" align="center" border="2" style="margin-top: 10px">
     <th>Название</th>
     <th>Изображение</th>
