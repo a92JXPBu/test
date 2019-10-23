@@ -4,7 +4,7 @@
             <a href="/">Home</a>
         </td>
         <td>
-            <a href="/cart">
+            <a href="{{route('карзина')}}">
                 <img src="http://getdrawings.com/free-icon/shopping-car-icon-51.png" width="16" height="16" alt=""> {{$cartSize}} Товаров
             </a>
         </td>

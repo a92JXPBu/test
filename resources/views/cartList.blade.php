@@ -11,7 +11,6 @@ echo $items;
     <th>Количество</th>
     <th>Удалить</th>
     @foreach ($cart as $order)
-
         <tr>
             <td width="50%">{{$order->items->name}}</td>
             <td><img src="{{$order->items->image}}" alt="" height="100"></td>
