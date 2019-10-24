@@ -1,6 +1,6 @@
 <div class="groupsContainer">
     @foreach($groups as $group)
-        <a href="/items/{{$group->id}}">
+        <a href="{{route('items', $group->id)}}">
             <table class="groupBox">
                 <tr>
                     <td class="groupBoxImageContainer">
